@@ -1,0 +1,11 @@
+function[Re_avg,sq,NewMatrix]=Fct(c)
+Re avg =mean(real(c))
+sq=rand(1,7)
+for i=1:1:7
+sq(1,i)=c(1,i).^2;
+end
+disp(sq)
+%prin folosirea .^ ridicam la patrat elementele din %c
+t=c.'%t este transpusa lui c
+NewMattrix=t*c %NewMatrix o sa fie o matrice patratica de 7 linii 7 coloane 
+end

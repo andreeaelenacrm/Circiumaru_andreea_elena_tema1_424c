@@ -1,0 +1,10 @@
+a=0:0.1:2
+c=length(a)
+b=ones(c,1)
+% a) pentru inmultirea a*b , trebuie b sa fie acelasi numar de elemente precum vectorul a. am folosit fct length pentru a afla lungimea lui a
+a*b
+%prin inmultirea celor 2 matrici rezulta o matrice care are o singura linie si o singura coloana 
+b*a
+% in cazul acesta o sa rezzulte o matrice care are 21 de linii si coloane 
+diag(a)*b
+%iar in acest caz o sa rezulte un vector ce are o singura coloana, elementele lui reprezinta produsul element cu element a celor doi vectori a si b
